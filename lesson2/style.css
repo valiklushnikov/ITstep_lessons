@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .list{
     color: blue;
 }
@@ -6,10 +10,31 @@
     font-size: 20px;
 }
 table{
+    width: 500px;
     text-align: center;
     font-size: 20px;
     border:2px solid red;
+    border-collapse: collapse;
 }
 td{
     border:2px solid red;
+}
+p{
+    width: 400px;
+    background-color: salmon;
+}
+p:first-of-type{
+    padding: 20px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+table tr:first-of-type{
+    background-color: slategrey;
+    color: snow;
+}
+table tr td:nth-child(1n){
+    background-color: skyblue;
+}
+table tr td:nth-child(2n){
+    background-color: yellow;
 }
