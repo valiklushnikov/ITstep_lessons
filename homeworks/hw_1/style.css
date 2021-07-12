@@ -1,0 +1,22 @@
+body{
+    background-color: #d5d3d3;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+section{
+    width: 800px;
+    margin: 0 auto 100px;
+}
+h2{
+    font-size: 32px;
+    color: #0ecbcb;
+    text-decoration: underline;
+}
+p{
+    font-size: 24px;
+}
+a{
+    color: #0ecbcb;
+}
