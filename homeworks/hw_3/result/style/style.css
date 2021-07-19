@@ -1,0 +1,39 @@
+.wrapper{
+    width: 1120px;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(36, 36, 36);
+}
+img{
+    margin: 0 30px 15px 0;
+    float: left;
+    border: 2px solid white;
+}
+.card{
+    width: 800px;
+    margin: 0 0 40px 80px;
+}
+.card > img + p{
+    color: white;
+}
+h2{
+    padding-top: 20px;
+    color: white;
+    font-size: 36px;
+}
+p{
+    color: dimgray;
+    
+}
+.btn{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: royalblue;
+    width: 140px;
+    height: 30px;
+    clear: both;
+}
