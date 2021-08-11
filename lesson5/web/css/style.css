@@ -190,8 +190,93 @@ nav{
     justify-content: space-around;
 }
 .team_card{
+    width: 250px;
     text-align: center;
+}
+.team_card p:first-of-type{
+    font-weight: 700;
 }
 .team_card img{
     border-radius: 50%;
+}
+.fa-twitter, .fa-facebook-f, .fa-circle{
+    color: deepskyblue;
+    font-size: 20px;
+}
+.fas.fa-circle, .far.fa-circle{
+    font-size: 10px;
+}
+.weAre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    padding: 30px 0;
+}
+.weAre_info h3{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.weAre_info p{
+    padding-bottom: 30px;
+}
+.weAre_info{
+    text-align: center;
+    width: 200px;
+}
+.weAre_info a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: forestgreen;
+    color: #fff;
+}
+.problems{
+    background-image: url("../img/bg/divider3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -230px;
+    text-align: center;
+}
+.problems h2{
+    width: 600px;
+    margin: auto;
+    padding: 150px 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 1px solid #fff;
+}
+.problems p{
+    font-size: 18px;
+    color: #fff;
+    padding: 25px 0 50px;
+}
+.weCreate h3{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+.portfolios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolios img{
+    width: 30%;
+    padding-top: 30px;
 }
